@@ -1,0 +1,20 @@
+[project]
+name = "samoloty-najw-zysk"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Michał Skowron", email = "michal.290305.sk@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "pyqt6>=6.12.1",
+    "pyqt6-webengine>=6.140.1",
+]
+
+[project.scripts]
+samoloty-najw-zysk = "samoloty_najw_zysk:main"
+
+[build-system]
+requires = ["uv_build>=0.12.21,<0.13.0"]
+build-backend = "uv_build"
